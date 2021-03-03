@@ -12,7 +12,7 @@ if delta ==0:
     print ("A única raíz é", raiz1)
 else:
     if delta<0:
-        print("Essa equação não possui raízes em R")
+        print("Não possui raízes em R")
     else:
         raiz1= (-b+ math.sqrt(delta))/ (2*a)
         raiz2= (-b- math.sqrt(delta))/ (2*a)
