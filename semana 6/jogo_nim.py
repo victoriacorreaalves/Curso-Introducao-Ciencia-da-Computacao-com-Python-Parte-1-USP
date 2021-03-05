@@ -74,7 +74,7 @@ def partida():
                 print("Agora restam", n, "peças no tabuleiro.")
                 print()
 # sai do laço quando n=0
-# de c é True então o usuário ganhou
+# se c é True então o usuário ganhou
     if c:
         print("Fim do jogo! Você ganhou!")
         return 1
